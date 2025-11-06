@@ -4,7 +4,7 @@ metadata:
   name: mysql
   labels: { app: mysql }
 spec:
-  clusterIP: None   # headless for stable DNS to pods
+  clusterIP: None  
   ports:
   - name: mysql
     port: {{ .Values.service.port }}
