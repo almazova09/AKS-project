@@ -1,4 +1,3 @@
-```
 # Kubernetes + AKS + Terraform + CI/CD + ArgoCD
 
 This documentation provides a full end‑to‑end guide for:
@@ -21,12 +20,12 @@ Repos:
 
 ## Export Azure Service Principal Credentials (for Terraform)
 
-```bash
+```
 export ARM_SUBSCRIPTION_ID="<YOUR_SUBSCRIPTION_ID>"
 export ARM_TENANT_ID="<YOUR_TENANT_ID>"
 export ARM_CLIENT_ID="<YOUR_CLIENT_ID>"
 export ARM_CLIENT_SECRET="<YOUR_CLIENT_SECRET>"
-```
+
 
 ## Re‑authenticate Azure CLI
 
