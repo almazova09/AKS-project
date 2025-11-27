@@ -166,7 +166,7 @@ az aks get-credentials --resource-group aks-rg --name aks-cluster
 
 # 6. Helm Charts
 
-.
+```bash
 ├── api
 │   ├── Chart.yaml
 │   ├── templates
@@ -193,6 +193,7 @@ az aks get-credentials --resource-group aks-rg --name aks-cluster
     │   ├── secret.yaml
     │   └── service.yaml
     └── values.yaml
+```
 
 Each chart includes:
 
